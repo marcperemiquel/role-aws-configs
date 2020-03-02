@@ -89,7 +89,7 @@
     - moodle
 - name: Remove efs
   file:
-    path: "{{ efs_utils_archive.dest }}"
+    path: "{{ efs_utils_source_dir }}"
     state: absent
   tags: 
     - moodle
